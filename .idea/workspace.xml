@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962824c9-ac6e-481f-b029-d9433ea23089" name="变更" comment="" />
+    <list default="true" id="962824c9-ac6e-481f-b029-d9433ea23089" name="变更" comment="使用工厂类和CountDownLatch创建和控制线程">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juc/src/com/jamison/sync/AtomicIntegerThreadPool/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/com/jamison/sync/AtomicIntegerThreadPool/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juc/src/com/jamison/sync/AtomicIntegerThreadPool/MyThreadFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/com/jamison/sync/AtomicIntegerThreadPool/MyThreadFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Core-Java-Volume/inheritance/ManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Core-Java-Volume/inheritance/ManagerTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +37,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -37,30 +51,94 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/jamison",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "库",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jamison/coding/java/LearnJava/juc&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jamison.jianzhi_offer.day11" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/juc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.com.jamison.sync.AtomicIntegerThreadPool.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jamison.reflection.Main" />
+      <module name="javaGuid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jamison.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.ManagerTest" />
+      <module name="Core-Java-Volume" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAtomicInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jamison.sync.TestAtomicInteger" />
+      <module name="juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jamison.sync.AtomicIntegerThreadPool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.jamison.sync.AtomicIntegerThreadPool.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jamison.sync.AtomicIntegerThreadPool.Main" />
+      <module name="juc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jamison.sync.AtomicIntegerThreadPool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="LearnJava" />
       <working_directory value="$PROJECT_DIR$" />
@@ -80,6 +158,12 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.com.jamison.sync.AtomicIntegerThreadPool.Main" />
+        <item itemvalue="应用程序.TestAtomicInteger" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -91,8 +175,156 @@
       <updated>1668664378903</updated>
       <workItem from="1668664380279" duration="202000" />
       <workItem from="1668669925605" duration="3000" />
-      <workItem from="1668686861043" duration="4283000" />
+      <workItem from="1668686861043" duration="4436000" />
+      <workItem from="1668763982541" duration="2091000" />
+      <workItem from="1668769783283" duration="6466000" />
+      <workItem from="1668864735409" duration="1457000" />
+      <workItem from="1668866544305" duration="2000" />
+      <workItem from="1668943436036" duration="4990000" />
+      <workItem from="1669208260854" duration="410000" />
+      <workItem from="1669302153852" duration="1551000" />
+      <workItem from="1669391336364" duration="174000" />
+      <workItem from="1669453967278" duration="5089000" />
+      <workItem from="1669459358057" duration="1700000" />
+      <workItem from="1669463344762" duration="306000" />
+      <workItem from="1669463659555" duration="621000" />
+      <workItem from="1669469147265" duration="374000" />
+      <workItem from="1669469529777" duration="6196000" />
     </task>
+    <task id="LOCAL-00001" summary="TreeStructure">
+      <created>1668693317017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668693317017</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mirror tree">
+      <created>1668693340648</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668693340648</updated>
+    </task>
+    <task id="LOCAL-00003" summary="isSymmetricTree">
+      <created>1668693371774</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668693371774</updated>
+    </task>
+    <task id="LOCAL-00004" summary="numWays">
+      <created>1668765196466</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668765196466</updated>
+    </task>
+    <task id="LOCAL-00005" summary="max profit">
+      <created>1668775661214</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668775661214</updated>
+    </task>
+    <task id="LOCAL-00006" summary="core java volume">
+      <created>1668775729385</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668775729385</updated>
+    </task>
+    <task id="LOCAL-00007" summary="maxSubArray">
+      <created>1668864879110</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668864879110</updated>
+    </task>
+    <task id="LOCAL-00008" summary="maxValue">
+      <created>1668866525867</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668866525867</updated>
+    </task>
+    <task id="LOCAL-00009" summary="reflection">
+      <created>1668949404636</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668949404636</updated>
+    </task>
+    <task id="LOCAL-00010" summary="translateNum">
+      <created>1669208390870</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669208390870</updated>
+    </task>
+    <task id="LOCAL-00011" summary="lengthOfLongestSubstring">
+      <created>1669208465124</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669208465124</updated>
+    </task>
+    <task id="LOCAL-00012" summary="delete listNode">
+      <created>1669208636016</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669208636016</updated>
+    </task>
+    <task id="LOCAL-00013" summary="get Kth formEnd">
+      <created>1669208659380</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669208659380</updated>
+    </task>
+    <task id="LOCAL-00014" summary="mergeTwoLists">
+      <created>1669302365949</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669302365949</updated>
+    </task>
+    <task id="LOCAL-00015" summary="getIntersectionNode">
+      <created>1669303007587</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1669303007587</updated>
+    </task>
+    <task id="LOCAL-00016" summary="getIntersectionNode">
+      <created>1669391359194</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1669391359194</updated>
+    </task>
+    <task id="LOCAL-00017" summary="modify">
+      <created>1669391425912</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1669391425912</updated>
+    </task>
+    <task id="LOCAL-00018" summary="use CountDownLatch">
+      <created>1669475807329</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1669475807329</updated>
+    </task>
+    <task id="LOCAL-00019" summary="使用工厂类和CountDownLatch创建和控制线程">
+      <created>1669475868729</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669475868729</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,8 +343,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
+    <MESSAGE value="TreeStructure" />
+    <MESSAGE value="mirror tree" />
+    <MESSAGE value="isSymmetricTree" />
+    <MESSAGE value="fib" />
+    <MESSAGE value="numWays" />
+    <MESSAGE value="max profit" />
+    <MESSAGE value="core java volume" />
+    <MESSAGE value="maxSubArray" />
+    <MESSAGE value="maxValue" />
+    <MESSAGE value="reflection" />
+    <MESSAGE value="translateNum" />
+    <MESSAGE value="lengthOfLongestSubstring" />
+    <MESSAGE value="delete listNode" />
+    <MESSAGE value="get Kth formEnd" />
+    <MESSAGE value="mergeTwoLists" />
+    <MESSAGE value="getIntersectionNode" />
+    <MESSAGE value="modify" />
+    <MESSAGE value="use CountDownLatch" />
+    <MESSAGE value="使用工厂类和CountDownLatch创建和控制线程" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用工厂类和CountDownLatch创建和控制线程" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
