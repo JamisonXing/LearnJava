@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
         AtomicInteger m = new AtomicInteger(0);
         //创建工厂
-        MyThreadFactory factory = new MyThreadFactory("MyThreadFactory");
+        MyThreadFactory factory = new MyThreadFactory();
         //线程数量
         int num = 10;
         CountDownLatch latch = new CountDownLatch(num);
@@ -18,20 +18,12 @@ public class Main {
         Task task = new Task(m, latch);
         Thread thread;
 
-
-
-
-
         //测试：创建10个线程并启动
-        System.out.println("Starting the Threads\n");
-
         for (int i = 0; i < num; i++) {
             thread = factory.newThread(task);
             thread.start();
         }
-
         latch.await();
-
         System.out.println(m);
     }
 }
