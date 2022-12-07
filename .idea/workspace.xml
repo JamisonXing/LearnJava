@@ -7,17 +7,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962824c9-ac6e-481f-b029-d9433ea23089" name="变更" comment="config">
-      <change afterPath="$PROJECT_DIR$/juc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="962824c9-ac6e-481f-b029-d9433ea23089" name="变更" comment="Java程序初始化顺序">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc/JUC/JUC.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc/src/com/jamison/sync/AtomicIntegerThreadPool/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/com/jamison/sync/AtomicIntegerThreadPool/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc/src/com/jamison/sync/AtomicIntegerThreadPool/MyThreadFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/com/jamison/sync/AtomicIntegerThreadPool/MyThreadFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc/src/com/jamison/sync/AtomicIntegerThreadPool/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/com/jamison/sync/AtomicIntegerThreadPool/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc/src/com/jamison/sync/AtomicIntegerThreadPool/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/com/jamison/sync/AtomicIntegerThreadPool/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juc/src/com/jamison/sync/TestAtomicInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/com/jamison/sync/TestAtomicInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,20 +87,7 @@
       <recent name="com.jamison.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestStatic">
-    <configuration name="TestFrames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jamison.test.TestFrames" />
-      <module name="juc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jamison.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestTargetObject">
     <configuration name="TestFrames2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jamison.test.TestFrames2" />
       <module name="juc" />
@@ -162,6 +140,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTargetObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jamison.reflection.TestTargetObject" />
+      <module name="basic grammar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jamison.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="LearnJava" />
       <working_directory value="$PROJECT_DIR$" />
@@ -183,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestTargetObject" />
         <item itemvalue="Application.TestStatic" />
         <item itemvalue="Application.TestParent" />
         <item itemvalue="Application.TestMyClass" />
         <item itemvalue="Application.TestFrames2" />
-        <item itemvalue="Application.TestFrames" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +209,7 @@
       <workItem from="1669469529777" duration="6890000" />
       <workItem from="1669613997908" duration="10590000" />
       <workItem from="1669637648725" duration="3478000" />
-      <workItem from="1670381762686" duration="3852000" />
+      <workItem from="1670381762686" duration="5721000" />
     </task>
     <task id="LOCAL-00001" summary="TreeStructure">
       <created>1668693317017</created>
@@ -381,7 +372,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669477244789</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="juc">
+      <created>1670386191505</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1670386191505</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Java程序初始化顺序">
+      <created>1670386231800</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1670386231800</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +426,9 @@
     <MESSAGE value="使用工厂类和CountDownLatch创建和控制线程" />
     <MESSAGE value="删除不必要的代码" />
     <MESSAGE value="config" />
-    <option name="LAST_COMMIT_MESSAGE" value="config" />
+    <MESSAGE value="juc" />
+    <MESSAGE value="Java程序初始化顺序" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java程序初始化顺序" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
@@ -444,5 +451,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LearnJava$TestTargetObject.ic" NAME="TestTargetObject Coverage Results" MODIFIED="1670387949789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.jamison.reflection.*</FILTER>
+    </SUITE>
   </component>
 </project>
