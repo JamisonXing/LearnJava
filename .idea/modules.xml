@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Core-Java-Volume/Core-Java-Volume.iml" filepath="$PROJECT_DIR$/Core-Java-Volume/Core-Java-Volume.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LearnJava.iml" filepath="$PROJECT_DIR$/.idea/LearnJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic grammar/basic grammar.iml" filepath="$PROJECT_DIR$/basic grammar/basic grammar.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaGuid/javaGuid.iml" filepath="$PROJECT_DIR$/javaGuid/javaGuid.iml" />
       <module fileurl="file://$PROJECT_DIR$/juc/juc.iml" filepath="$PROJECT_DIR$/juc/juc.iml" />
     </modules>
