@@ -1,4 +1,4 @@
-package com.jamison.proxyMoed.dynamicProxy.impl;
+package com.jamison.proxyMoed.dynamicProxy.JDK.impl;
 
 import com.jamison.proxyMoed.staticProxy.SmsService;
 

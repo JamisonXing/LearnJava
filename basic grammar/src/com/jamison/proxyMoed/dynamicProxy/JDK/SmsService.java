@@ -1,4 +1,4 @@
-package com.jamison.proxyMoed.dynamicProxy;
+package com.jamison.proxyMoed.dynamicProxy.JDK;
 
 /**
  * @author jamison

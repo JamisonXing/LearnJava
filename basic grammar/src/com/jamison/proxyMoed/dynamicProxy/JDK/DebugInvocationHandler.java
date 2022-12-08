@@ -1,4 +1,4 @@
-package com.jamison.proxyMoed.dynamicProxy;
+package com.jamison.proxyMoed.dynamicProxy.JDK;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;

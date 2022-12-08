@@ -1,4 +1,6 @@
-package com.jamison.proxyMoed.dynamicProxy;
+package com.jamison.proxyMoed.dynamicProxy.JDK;
+
+import com.jamison.proxyMoed.dynamicProxy.JDK.DebugInvocationHandler;
 
 import java.lang.reflect.Proxy;
 
