@@ -7,10 +7,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962824c9-ac6e-481f-b029-d9433ea23089" name="变更" comment="reflection">
+    <list default="true" id="962824c9-ac6e-481f-b029-d9433ea23089" name="变更" comment="JDK dynamic proxy mode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic grammar/src/com/jamison/proxyMoed/dynamicProxy/DebugInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic grammar/src/com/jamison/proxyMoed/dynamicProxy/DebugInvocationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic grammar/src/com/jamison/proxyMoed/dynamicProxy/JdkProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic grammar/src/com/jamison/proxyMoed/dynamicProxy/JdkProxyFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +40,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2Hf7SBrJAl6yrEEd6pSIyUo0lGY" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -50,36 +55,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/jamison/coding/java/LearnJava/basic grammar/src/com/jamison/proxyMoed/dynamicProxy",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jamison/coding/java/LearnJava/basic grammar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.jamison.jianzhi_offer.day11" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/basic grammar" />
       <recent name="$PROJECT_DIR$/basic grammar/src/com/jamison/proxyMoed/dynamicProxy" />
       <recent name="$PROJECT_DIR$/juc" />
     </key>
@@ -92,13 +98,13 @@
       <recent name="com.jamison.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestDynamic">
+  <component name="RunManager" selected="应用程序.TestDynamic">
     <configuration name="TestDynamic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jamison.proxyMoed.dynamicProxy.TestDynamic" />
+      <option name="MAIN_CLASS_NAME" value="com.jamison.proxyMoed.dynamicProxy.JDK.TestDynamic" />
       <module name="basic grammar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jamison.proxyMoed.dynamicProxy.*" />
+          <option name="PATTERN" value="com.jamison.proxyMoed.dynamicProxy.JDK.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,15 +183,6 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.TestDynamic" />
-        <item itemvalue="Application.TestSms" />
-        <item itemvalue="Application.TestTargetObject" />
-        <item itemvalue="Application.TestStatic" />
-        <item itemvalue="Application.TestParent" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -215,7 +212,8 @@
       <workItem from="1669613997908" duration="10590000" />
       <workItem from="1669637648725" duration="3478000" />
       <workItem from="1670381762686" duration="6356000" />
-      <workItem from="1670485957912" duration="2131000" />
+      <workItem from="1670485957912" duration="3487000" />
+      <workItem from="1670489469617" duration="182000" />
     </task>
     <task id="LOCAL-00001" summary="TreeStructure">
       <created>1668693317017</created>
@@ -399,7 +397,28 @@
       <option name="project" value="LOCAL" />
       <updated>1670388080818</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="java static proxy mode">
+      <created>1670488490338</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1670488490338</updated>
+    </task>
+    <task id="LOCAL-00028" summary="JDK dynamic proxy mode">
+      <created>1670488530753</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1670488530753</updated>
+    </task>
+    <task id="LOCAL-00029" summary="JDK dynamic proxy mode">
+      <created>1670488629970</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1670488629970</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +460,9 @@
     <MESSAGE value="juc" />
     <MESSAGE value="Java程序初始化顺序" />
     <MESSAGE value="reflection" />
-    <option name="LAST_COMMIT_MESSAGE" value="reflection" />
+    <MESSAGE value="java static proxy mode" />
+    <MESSAGE value="JDK dynamic proxy mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDK dynamic proxy mode" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
