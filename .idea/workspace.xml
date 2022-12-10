@@ -7,7 +7,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962824c9-ac6e-481f-b029-d9433ea23089" name="变更" comment="CGLIB dynamic proxy mode">
+    <list default="true" id="962824c9-ac6e-481f-b029-d9433ea23089" name="变更" comment="BigDecimal Util">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,13 +99,13 @@
       <recent name="com.jamison.test" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.TestCglib">
-    <configuration name="TestCglib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jamison.proxyMoed.dynamicProxy.CGLIB.TestCglib" />
+  <component name="RunManager" selected="应用程序.TestBigDecimalUtil">
+    <configuration name="TestBigDecimalUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jamison.BigDecimalUtil.TestBigDecimalUtil" />
       <module name="basic grammar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jamison.proxyMoed.dynamicProxy.CGLIB.*" />
+          <option name="PATTERN" value="com.jamison.BigDecimalUtil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestParent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jamison.initalizationOrder.TestParent" />
+    <configuration name="TestCglib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jamison.proxyMoed.dynamicProxy.CGLIB.TestCglib" />
       <module name="basic grammar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jamison.initalizationOrder.*" />
+          <option name="PATTERN" value="com.jamison.proxyMoed.dynamicProxy.CGLIB.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,6 +186,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.TestBigDecimalUtil" />
         <item itemvalue="应用程序.TestCglib" />
       </list>
     </recent_temporary>
@@ -219,7 +221,7 @@
       <workItem from="1670381762686" duration="6356000" />
       <workItem from="1670485957912" duration="3487000" />
       <workItem from="1670489469617" duration="2642000" />
-      <workItem from="1670646372646" duration="3309000" />
+      <workItem from="1670646372646" duration="3588000" />
     </task>
     <task id="LOCAL-00001" summary="TreeStructure">
       <created>1668693317017</created>
@@ -438,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670490818245</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="BigDecimal Util">
+      <created>1670649730224</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1670649730224</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +466,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="mirror tree" />
     <MESSAGE value="isSymmetricTree" />
     <MESSAGE value="fib" />
     <MESSAGE value="numWays" />
@@ -482,7 +490,8 @@
     <MESSAGE value="JDK dynamic proxy mode" />
     <MESSAGE value="config" />
     <MESSAGE value="CGLIB dynamic proxy mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="CGLIB dynamic proxy mode" />
+    <MESSAGE value="BigDecimal Util" />
+    <option name="LAST_COMMIT_MESSAGE" value="BigDecimal Util" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
