@@ -1,6 +1,7 @@
 package com.jamison.collection_test;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -21,6 +22,12 @@ public class TestList2 {
         System.out.println("----遍历方法2----");
         for(Integer num : list) {
             System.out.println(num);
+        }
+
+        System.out.println("----遍历方法3----");
+        Iterator<Integer> it = list.iterator();
+        while(it.hasNext()) {
+            System.out.println(it.next() + " ");
         }
     }
 }
