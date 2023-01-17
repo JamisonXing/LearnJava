@@ -16,12 +16,18 @@ public class TestList3 {
         subList01.add(13);
         subList01.add(14);
         List<Integer> subList02 = new ArrayList<>();
-        subList02.add(12);
-        subList02.add(13);
-        subList02.add(14);
+        subList02.add(22);
+        subList02.add(23);
+        subList02.add(24);
 
         list.add(subList01);
         list.add(subList02);
         System.out.println(list);
+
+        for (int i = 0; i < list.size(); i++) {
+            for (int j = 0; j < list.get(i).size(); j++) {
+                System.out.println(list.get(i).get(j));
+            }
+        }
     }
 }
