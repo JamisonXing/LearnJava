@@ -7,7 +7,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962824c9-ac6e-481f-b029-d9433ea23089" name="变更" comment="SPI">
+    <list default="true" id="962824c9-ac6e-481f-b029-d9433ea23089" name="变更" comment="TestList01">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -99,20 +100,7 @@
       <recent name="com.jamison.test" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Test3">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jamison.spi.Main" />
-      <module name="basic grammar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jamison.spi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.TestList2">
     <configuration name="RandomTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jamison.collection_test.RandomTest" />
       <module name="basic grammar" />
@@ -152,12 +140,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBigDecimalUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jamison.BigDecimalUtil.TestBigDecimalUtil" />
+    <configuration name="TestList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jamison.collection_test.TestList" />
       <module name="basic grammar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jamison.BigDecimalUtil.*" />
+          <option name="PATTERN" value="com.jamison.collection_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestList2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jamison.collection_test.TestList2" />
+      <module name="basic grammar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jamison.collection_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.TestList2" />
+        <item itemvalue="应用程序.TestList" />
         <item itemvalue="应用程序.Test3" />
         <item itemvalue="应用程序.Test2" />
         <item itemvalue="应用程序.RandomTest" />
-        <item itemvalue="应用程序.Main" />
-        <item itemvalue="应用程序.TestBigDecimalUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +231,12 @@
       <workItem from="1671185675312" duration="8000" />
       <workItem from="1671433761966" duration="2529000" />
       <workItem from="1671528962031" duration="2000" />
-      <workItem from="1672454176749" duration="2104000" />
+      <workItem from="1672454176749" duration="2258000" />
+      <workItem from="1673089183041" duration="915000" />
+      <workItem from="1673316006216" duration="73000" />
+      <workItem from="1673858605060" duration="1314000" />
+      <workItem from="1673954118030" duration="13000" />
+      <workItem from="1673954657784" duration="2282000" />
     </task>
     <task id="LOCAL-00001" summary="TreeStructure">
       <created>1668693317017</created>
@@ -470,7 +476,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671435061198</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Collection Test">
+      <created>1672456337151</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1672456337151</updated>
+    </task>
+    <task id="LOCAL-00036" summary="TestList01">
+      <created>1673964960389</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1673964960389</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,8 +509,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="numWays" />
-    <MESSAGE value="max profit" />
     <MESSAGE value="core java volume" />
     <MESSAGE value="maxSubArray" />
     <MESSAGE value="maxValue" />
@@ -514,7 +532,9 @@
     <MESSAGE value="BigDecimal Util" />
     <MESSAGE value="Test BigDecimalUtil" />
     <MESSAGE value="SPI" />
-    <option name="LAST_COMMIT_MESSAGE" value="SPI" />
+    <MESSAGE value="Collection Test" />
+    <MESSAGE value="TestList01" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestList01" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

@@ -2,3 +2,5 @@
 /juc/juc.iml
 /out
 /.idea
+/*.class
+/basic grammar/target
