@@ -30,4 +30,6 @@ public class JamisonDemo {
     public static void fun(Book book) {
         System.out.println(book.getInfo());
     }
+
+
 }

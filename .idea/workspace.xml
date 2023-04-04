@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962824c9-ac6e-481f-b029-d9433ea23089" name="变更" comment="TestList01">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="962824c9-ac6e-481f-b029-d9433ea23089" name="变更" comment="upcast">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic grammar/src/com/jamison/upcast/JamisonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic grammar/src/com/jamison/upcast/JamisonDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;cn.yiiguxing.plugin.translate&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -100,26 +99,13 @@
       <recent name="com.jamison.test" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.TestList2">
-    <configuration name="RandomTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jamison.collection_test.RandomTest" />
+  <component name="RunManager" selected="应用程序.JamisonDemo">
+    <configuration name="JamisonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jamison.upcast.JamisonDemo" />
       <module name="basic grammar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jamison.collection_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jamison.collection_test.Test2" />
-      <module name="basic grammar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jamison.collection_test.*" />
+          <option name="PATTERN" value="com.jamison.upcast.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,6 +152,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestList3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jamison.collection_test.TestList3" />
+      <module name="basic grammar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jamison.collection_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="LearnJava" />
       <working_directory value="$PROJECT_DIR$" />
@@ -187,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.JamisonDemo" />
         <item itemvalue="应用程序.TestList2" />
+        <item itemvalue="应用程序.TestList3" />
         <item itemvalue="应用程序.TestList" />
         <item itemvalue="应用程序.Test3" />
-        <item itemvalue="应用程序.Test2" />
-        <item itemvalue="应用程序.RandomTest" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +235,12 @@
       <workItem from="1673316006216" duration="73000" />
       <workItem from="1673858605060" duration="1314000" />
       <workItem from="1673954118030" duration="13000" />
-      <workItem from="1673954657784" duration="2282000" />
+      <workItem from="1673954657784" duration="3059000" />
+      <workItem from="1673967041096" duration="2773000" />
+      <workItem from="1674009074192" duration="4050000" />
+      <workItem from="1674103481162" duration="761000" />
+      <workItem from="1674375908395" duration="136000" />
+      <workItem from="1674376053400" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="TreeStructure">
       <created>1668693317017</created>
@@ -490,7 +494,42 @@
       <option name="project" value="LOCAL" />
       <updated>1673964960389</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="TestList02">
+      <created>1673966504094</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1673966504094</updated>
+    </task>
+    <task id="LOCAL-00038" summary="TestList03">
+      <created>1673966677915</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1673966677915</updated>
+    </task>
+    <task id="LOCAL-00039" summary="TestList03-1">
+      <created>1673967325447</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1673967325447</updated>
+    </task>
+    <task id="LOCAL-00040" summary="TestList02-1">
+      <created>1673967504720</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1673967504720</updated>
+    </task>
+    <task id="LOCAL-00041" summary="upcast">
+      <created>1674012242034</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1674012242034</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,11 +548,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="core java volume" />
-    <MESSAGE value="maxSubArray" />
-    <MESSAGE value="maxValue" />
-    <MESSAGE value="translateNum" />
-    <MESSAGE value="lengthOfLongestSubstring" />
     <MESSAGE value="delete listNode" />
     <MESSAGE value="get Kth formEnd" />
     <MESSAGE value="mergeTwoLists" />
@@ -534,7 +568,12 @@
     <MESSAGE value="SPI" />
     <MESSAGE value="Collection Test" />
     <MESSAGE value="TestList01" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestList01" />
+    <MESSAGE value="TestList02" />
+    <MESSAGE value="TestList03" />
+    <MESSAGE value="TestList03-1" />
+    <MESSAGE value="TestList02-1" />
+    <MESSAGE value="upcast" />
+    <option name="LAST_COMMIT_MESSAGE" value="upcast" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
