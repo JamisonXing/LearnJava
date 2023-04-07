@@ -8,7 +8,7 @@ class ListNode {
     ListNode(int val){this.val = val;}
 }
 //输入一个链表的头节点，从尾到头反过来返回每个节点的值（用数组返回）。
-public class reversePrint {
+public class ReversePrint {
     ArrayList<Integer> arrayList = new ArrayList<>();
     public int[] reversePrint(ListNode head) {
         rescur(head);
