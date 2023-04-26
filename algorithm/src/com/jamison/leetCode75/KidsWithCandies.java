@@ -7,14 +7,14 @@ import java.util.OptionalInt;
 
 public class KidsWithCandies {
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
-        int max = Arrays.stream(candies).max().getAsInt();
-        List<Boolean> resList = new ArrayList<>(candies.length);
-        for (int i = 0; i < candies.length; i++) {
-            if(candies[i] + extraCandies >= max) {
-                resList.add(true);
-            }else {
-                resList.add(false);
-            }
+        int n = candies.length;
+        int max = 0;
+        for (int i = 0; i < n; i++) {
+            max = Math.max(max, candies[i]);
+        }
+        ArrayList<Boolean> resList = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            resList.add(candies[i] + extraCandies >= max);
         }
         return resList;
     }
