@@ -9,9 +9,7 @@ public class ReverseWords {
     }
     static public String reverseWords(String s) {
         String sTrim = s.trim();
-        String[] strings = sTrim.split("\\s+");
-        List<String> wordList = new ArrayList<>();
-        Collections.addAll(wordList, strings);
+        List<String> wordList = Arrays.asList(sTrim.split("\\s+"));
         Collections.reverse(wordList);
         return  String.join(" ", wordList);
     }
